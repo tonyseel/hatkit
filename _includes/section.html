@@ -1,0 +1,8 @@
+     {% for post in site.posts limit:3 %}     
+            <div class="col-md-4 split-content">
+					<img src="{{site.baseurl}}/image/rocket2.png"/>
+					<a href="{{ post.url | prepend: site.baseurl }}"><h3>{{post.title}}</h3></a>
+					<p>{{post.excerpt | strip_html | truncatewords:28 }}</p>
+				
+				</div>     
+     {% endfor %}

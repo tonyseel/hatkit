@@ -1,0 +1,33 @@
+# site setting
+title: hatkit
+baseurl: /hatkit
+tagline: 23 Yrs Experience in credit Repair. Pay only for credit deletion
+description: I offer affordable and timely credit repair services. Please don't hesitate to contact me for a free consultation.
+#banner
+heading: We give you increased results – every time!
+sub-heading: We Work extensively at repairing client's credit to be approved for a mortgage. We can help turn our clients denied credit files into an approved credit file.
+#about
+about-title: Having 23+ Yrs experience in credit repair
+about-content: I know exactly what a client needs when they come to my Credit Consulting Services and say they want to purchase a home but their credit profile is lacking. 
+#contact
+contact-title: Credit Repair Consultant
+contact-desc: George is great with clients and explains the loan process to them in perfect detail. I highly recommend him to anyone needing a loan to buy a home or to refinance. 
+contact-num: 6478794709
+#build setting
+markdown: kramdown
+  
+exclude: ['README.md']
+permalink: pretty #to remove .html
+
+#sociallinks
+facebook_username: Hatkit-Credit-Repair-1887916628195003
+twitter_username: hatkit83   
+instagram_username: crigroups
+youtube_username: crigroups
+google-plus_username: u/0/109075708523313177474
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+include: ['_pages']
+
