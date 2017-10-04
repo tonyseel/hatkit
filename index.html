@@ -1,64 +1,8 @@
 --- 
 layout: default 
 --- 
-	<div class="banner-section">
-		<div class="container">
-			<div class="col-md-6 banner">
-				<img src="{{site.baseurl}}/image/finge-600-21.png"/>
-			</div>
-			<div class="col-md-6">
-			   <div class="banner-content">
-				<h3>{{site.tagline}}</h3>
-				<h5>{{site.description}}</h5>
-				 <a href="tel:{{site.contact-num}}">CALL: {{site.contact-num}}</a>
-				  
-			</div>
-		</div>
-	</div>
-</div>
-<div class="content-section">
-		<div class="container">
-		  <div class="content">
-			<h2>{{site.heading}}</h2>
-			<p>{{site.sub-heading}}</p>
-			</div>
-			<div class="row">
-				{% include section.html %}
-			</div>
-		</div>
-	</div>
-<div class="about-us" id="nav2">
-		<div class="container">
-			<div class="col-md-6">
-				<img src="{{site.baseurl}}/image/campaign-monitor-mbp.png"/>
-			</div>
-			<div class="col-md-6">
-				<h2>{{site.about-title}}</h2>
-				<p>{{site.about-content}}</p>
-			</div>
-		</div>
-	</div>
+	
+{% include banner-section.html %}
 
-<div class="contact-us" id="nav4">
-		<div class="container">
-		<div class="desc-center">
-			<h2>{{site.contact-title}}</h2>
-			   <div class="innercontact">
-			   		<form class="contact_form" method="post" action="https://formspree.io/jerilcj3@gmail.com">
-			   				<div class="row">
-			   						<div class="col-md-6">
-			   							<p><input type="text" placeholder="Enter Your Name"></p>
-			   							<p><input type="email" name="_replyto" placeholder="Enter Your Email"></p>	
-			   							<p><input type="text" placeholder="Enter Your Phone Number"></p>		
-			   						</div>
-			   						<div class="col-md-6">
-			   						<p><textarea placeholder="Enter Your message"></textarea>
-			   							<p><input type="Submit" id="" value="Send"></p>	
-			   						</div>
-			   				</div>
-			   		</form>
-			   </div>		
-			</div>
-		</div>
-	</div>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62647.28704244298!2d76.96368690132252!3d11.079394481715577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f7f3acac202b%3A0xb9a1348889c47108!2sSaravanampatty%2C+Coimbatore%2C+Tamil+Nadu!5e0!3m2!1sen!2sin!4v1506425368874" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+{% include product-section.html %}
+
