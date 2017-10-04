@@ -2,20 +2,22 @@
 	 <div class="container">
 		<div class="footer">
 		 <div class="row">
+		 {% for footer in site.data.footer-section %}
 		 	<div class="col-md-3 newletter">
 				<h3>NEWSLETTER</h3>
-				<p>Sign up for latest news, tips and learnings from ConversionLab.</p>
+				<p>{{footer.newletter-content}}</p>
 				<a href="#">Signup for newsletter</a>
 		 	</div>
 			<div class="col-md-3 social">
 			   <h3>FOLLOW US</h3>
 			   <ul class="social-icon">
-				   <li><a href="https://facebook.com/{{site.facebook_username}}"><img src="{{site.baseurl}}/image/facebook.png"/>
+				   <li><a href="{{footer.facebook}}"><img src="{{site.baseurl}}/image/facebook.png"/>
 				   </a></li>
-				   <li><a href="https://twitter.com/{{site.twitter_username}}"><img src="{{site.baseurl}}/image/twitter.png"/></a></li>
-				   <li><a href="https://google-plus.com/{{site.google-plus_username}}"><img src="{{site.baseurl}}/image/google-plus.png"/></a></li>
+				   <li><a href="{{footer.twitter}}"><img src="{{site.baseurl}}/image/twitter.png"/></a></li>
+				   <li><a href="{{footer.google-plus}}"><img src="{{site.baseurl}}/image/google-plus.png"/></a></li>
 			   </ul>
 			 </div>
+			 {% endfor %}
 			 <div class="col-md-6 social">
 			   <h3>Products</h3>
 			   <ul class="products">

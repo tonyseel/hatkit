@@ -1,0 +1,21 @@
+<div class="banner-section">
+		<div class="container">
+
+		  {% for banner in site.data.banner-section %}
+			<div class="col-md-6 banner">
+				<img src="{{site.baseurl}}/image/{{banner.banner-image}}"/>
+			</div>
+			<div class="col-md-6">
+			   <div class="banner-content">
+				<h3>{{banner.banner-heading}}</h3>
+				<h5>{{banner.banner-subheading}}</h5>
+				{% endfor %}
+
+				 {% for header in site.data.header-top %}
+				 <a href="tel:{{site.contact-num}}">CALL: {{header.phone-number}}</a>
+				 {% endfor %}
+				  
+			</div>
+		</div>
+	</div>
+</div>

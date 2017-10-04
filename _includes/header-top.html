@@ -1,0 +1,41 @@
+	<div class="header">
+	  <div class="container">
+	  {% for header in site.data.header-top.html %}
+		<div class="row">
+			<div class="col-md-4">
+				 <div id="logo">
+                    <h1>
+						<a href="#" title="WPZOOM Theme Demo">{{header.logo-text}}</a>
+			  		</h1>
+                </div>
+			</div>
+			<div class="col-md-6 hidden-sm hidden-xs">
+				<ul class="menu">
+					<li><a href="{{site.baseurl}}">Home</a></li>
+					<li><a href="#nav2">About</a></li>
+					<li><a href="{{site.baseurl}}/privacy/">Privacy</a></li>
+					<li><a href="#nav4">Contact</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-md-2 get-touch hidden-sm hidden-xs">
+			    <a href="tel:{{site.contact-num}}" id="header-button" >CALL:{{header.phone-number}}</a>
+			</div>
+         {% endfor %}
+    <div class="responsive-menu hidden-md hidden-lg">
+    	<a href="#" class="respon-menu"><i class="fa fa-bars" aria-hidden="true"></i></a>
+        <a href="#" class="respon-cross"><i class="fa fa-times" aria-hidden="true"></i></a>
+    </div>
+    <div class="resmenu hidden-md hidden-lg">
+    	<ul>
+        	<li><a href="{{site.baseurl}}">Home</a></li>
+            <li><a href="#nav2">About</a></li>
+           <li><a href="{{site.baseurl}}/privacy/">Privacy</a></li>
+           <li><a href="#nav4">Contact</a></li>
+                
+        </ul>
+        
+    </div>
+		</div>
+		</div>
+	</div>
