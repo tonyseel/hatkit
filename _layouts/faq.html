@@ -3,15 +3,17 @@ layout: default
 ---
 <div class="container">
 <dl id="faqs">
- <h3 style="font-size:40px;color:#8e8d8c;    padding: 10px 27px;">Frequently Asked Question</h3>
-  <dt>Question 1</dt>
-  <dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit orem ipsum dolor sit amet, consectetuer adipiscing elit</dd>
- 
-  <dt>Question 2</dt>
-  <dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit orem ipsum dolor sit amet, consectetuer adipiscing elit</dd>
- 
-  <dt>Question 3</dt>
-  <dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit orem ipsum dolor sit amet, consectetuer adipiscing elit</dd>
+ <h3 style="font-size:40px;color:#8e8d8c;padding: 10px 27px;">Frequently Asked Question</h3>
+  {% for faq in site.data.faq-section %}
+	  <dt>{{faq.question-one}}</dt>
+	  <dd>{{faq.answer-one}}</dd>
+	 
+	  <dt>{{faq.question-two}}</dt>
+	  <dd>{{faq.answer-two}}</dd>
+	 
+	  <dt>{{faq.question-three}}</dt>
+	  <dd>{{faq.answer-three}}</dd>
+  {% endfor %}
 </dl>
 
 </div>
