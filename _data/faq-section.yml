@@ -1,10 +1,16 @@
-- question-one: campaign-monitor-mbp.png
-  answer-one: Lorem ipsum dolor sit amet, consectetuer adipiscing elit orem ipsum dolor sit amet, consectetuer adipiscing elit
+- question-one: How much does a Hatkit subscription cost and which features are included?
+  answer-one: We have two plans a free and premium plan. Premium plan costs 7.99 USD/Month
 
-  question-two: campaign-monitor-mbp.png
-  answer-two: Lorem ipsum dolor sit amet, consectetuer adipiscing elit orem ipsum dolor sit amet, consectetuer adipiscing elit
+  question-two: How can I get my own domain name?
+  answer-two: Domain name is free with the premium plan.
 
-  question-three: campaign-monitor-mbp.png
-  answer-three: Lorem ipsum dolor sit amet, consectetuer adipiscing elit orem ipsum dolor sit amet, consectetuer adipiscing elit
+  question-three: How can I pay for PRO subscription?
+  answer-three: You can make the payment here http://sales.hatkit.com/pricing/
+
+  question-three: What happens when my PRO subscription expires?
+  answer-three: If you are registered with our Payment Service, your subscription will automatically be renewed. If we are unable to renew your subscription automatically, we will notify you by email with instructions on how you can renew your subscription. If your subscription is not renewed, your website will be offline. We save all content for 1 month. During this 1 month, you can still login to your website and renew your PRO subscription at any time. If the subscription is not renewed within 1 month your website will be permanently deleted . Once a website is deleted, it can no longer be recovered.
+
+  question-three: How many days do I have left before my PRO subscription expires?
+  answer-three:  We recommend you renew your PRO subscription at least 24 hours before the current subscription period expires.
 
   
