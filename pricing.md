@@ -1,6 +1,6 @@
 ---
 layout: pricing
-title: frequently asked question
+title: Pricing Details
 permalink: /pricing/
 ---
 
