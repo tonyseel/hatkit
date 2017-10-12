@@ -1,6 +1,7 @@
 ---
 layout: page
 title: privacy
+permalink: /privacy/
 ---
 	
 This privacy policy sets out how we use and protect any information that you give when you use this website. We are committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this website, then you can be assured that it will only be used in accordance with this privacy statement. We may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you are happy with any changes. This policy is effective from March 10 2015.
