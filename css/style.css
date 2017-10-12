@@ -544,6 +544,7 @@ padding: 0.6em 0 0.6em 0.4em;
 color: white;
 text-shadow: 0 0.06em 0 #424242;
 position: relative;
+text-align: center;
 }
 
 .mail {
