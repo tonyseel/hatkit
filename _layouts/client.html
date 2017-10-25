@@ -26,16 +26,41 @@ layout: default
 				
                 <p>If you have any additional contents please send it to tony@hatkit.com. You can send images or text in word format</p>
 
-				<p class="submit_wrapper"><input type="submit" value="SUBMIT"></p>			
+                <li><input type="hidden" name="entry.889654569" id="ipaddress"></li>
+
+				<p class="submit_wrapper"><input type="submit" value="SUBMIT"></p>		
 			</form>
 			
 			
 	</article>
 </section>
 	</div>
-	<script type="text/javascript">var submitted=false;</script>
 
-   <script type="text/javascript">
-	
+<script>
+     function getIP(json) {
+        jQuery("#ipaddress").val(json.ip);
+     }
+</script>
 
-   </script>
+<script type="text/javascript">
+
+    function ValidateEmail(email) {
+        var expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+        return expr.test(email);
+    };
+
+
+    $("#btnsubmit").on("click", function () {
+        if (!ValidateEmail($("#email").val())) {
+            alert("Invalid email address.");
+            return false;
+        }
+        else {
+
+        }
+    });
+
+</script> 
+   
+
+<script type="text/javascript">var submitted=false;</script>
