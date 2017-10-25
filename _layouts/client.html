@@ -28,7 +28,7 @@ layout: default
 
                 <li><input type="hidden" name="entry.889654569" id="ipaddress"></li>
 
-				<p class="submit_wrapper"><input type="submit" value="SUBMIT"></p>		
+				<p class="submit_wrapper"><input type="submit" id="btnsubmit" value="SUBMIT"></p>		
 			</form>
 			
 			
@@ -51,7 +51,7 @@ layout: default
 
 
     $("#btnsubmit").on("click", function () {
-        if (!ValidateEmail($("#email").val())) {
+        if (!ValidateEmail($("#contact_email").val())) {
             alert("Invalid email address.");
             return false;
         }
@@ -62,5 +62,5 @@ layout: default
 
 </script> 
    
-
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
 <script type="text/javascript">var submitted=false;</script>
